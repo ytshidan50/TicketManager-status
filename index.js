@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 const totalMembers = client.guilds.cache.reduce((total, guild) => total + guild.memberCount, 0);
-const statusMessages = ["Listening to 𝗧𝗶𝗰𝗸𝗲𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝘀","Playing 𝗠𝗔𝗚 𝗡𝗲𝘁𝘄𝗼𝗿𝗸","Watching 𝟯𝗞+ 𝗠𝗲𝗺𝗯𝗲𝗿𝘀","Streaming on 𝗠𝗮𝗹𝗹𝘂 𝗔𝗿𝗲𝗻𝗮 𝗚𝗮𝗺𝗶𝗻𝗴"];
+const statusMessages = ["Listening to 𝗧𝗶𝗰𝗸𝗲𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝘀"];
 /** const statusMessages = ["Listening to 𝗧𝗶𝗰𝗸𝗲𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝘀","Playing 𝗠𝗔𝗚 𝗡𝗲𝘁𝘄𝗼𝗿𝗸","Watching 𝟮𝗞+ 𝗠𝗲𝗺𝗯𝗲𝗿𝘀","Streaming on 𝗠𝗮𝗹𝗹𝘂 𝗔𝗿𝗲𝗻𝗮 𝗚𝗮𝗺𝗶𝗻𝗴"];
     const statusMessages = ["Listening to 𝗪𝗵𝗶𝘁𝗲𝗹𝗶𝘀𝘁𝘀","Playing 𝗠𝗔𝗚 𝗡𝗲𝘁𝘄𝗼𝗿𝗸","Watching 𝗣𝗹𝗮𝘆𝗲𝗿𝘀","Streaming 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗻𝗮𝗿𝗰𝗵𝘆"];
 */
